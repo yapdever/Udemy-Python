@@ -9,6 +9,11 @@ Ej.
     nueva_cadena = cadena.replace('mundo', 'a todos')
     print(nueva_cadena) # Hola a todos
 """
-cadena = 'Hola Mundo'
+cadena = 'Hola, Mundo!'
+print(f'Cade original: {cadena}')
 nueva_cadena = cadena.replace('Mundo', 'a todos')
 print(f'Esta es la nueva cadena {nueva_cadena}')
+
+# Sustituir hola por adios
+nueva_cadena = cadena.replace('Hola', 'Adios')
+print(f'Nueva cadena reemplazada: {nueva_cadena}')
